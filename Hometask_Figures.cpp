@@ -36,7 +36,7 @@ public:
 		}
 	}
 
-	void SetPoints() // получение наших точек с ввода с клавиатуры
+	void SetPoints() // получение наших точек
 	{
 		for (int i = 0; i < *tops; i++)
 		{
@@ -62,7 +62,7 @@ public:
 		return *Square;
 	}
 
-	virtual float GetPerimeter() //переводс точек для периметра
+	virtual float GetPerimeter() //перевод точек для периметра
 	{
 		float* Perimeter = new float(0.0);
 
